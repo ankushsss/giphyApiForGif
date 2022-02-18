@@ -10,7 +10,7 @@ export const Post = () => {
         
     },[searchgifData])
     const apiCall = ()=>{
-      fetch(`http://api.giphy.com/v1/gifs/search?q=${searchgifData}&api_key=LDQDzgsqWB0rKRymzGEBK2lE1Oqg8MCE&limit=10=kk`)
+      fetch(`https://api.giphy.com/v1/gifs/search?q=${searchgifData}&api_key=LDQDzgsqWB0rKRymzGEBK2lE1Oqg8MCE&limit=10=kk`)
         
         .then(response => response.json())
         .then(( data )=> {
