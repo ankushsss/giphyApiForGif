@@ -57,7 +57,7 @@ export const Post = () => {
           </div>
           <textarea placeholder="What's on your mind" required></textarea>
           <div>
-            {textAreaImage==""?'':<img style={{width:"100%"}}  src={textAreaImage}/>}
+            {textAreaImage==""?'':<img className='imgSize' src={textAreaImage}/>}
           </div>
           
           <div className="theme-emoji">

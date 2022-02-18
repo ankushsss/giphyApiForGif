@@ -276,3 +276,26 @@ form textarea:valid ~ button:hover{
 .list li.active .radio::before{
   background: #4599FF;
 }
+.imgSize
+{
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .container
+  {
+    width: 30%;
+    margin: 0 auto;
+  }
+  form :where(textarea, button) 
+  {
+    width: 50%;
+  }
+  .post header
+  {
+    width:60%;
+  }
+  .imgSize
+  {
+    width: 60%;
+  }
+}
